@@ -7,9 +7,9 @@ A Minecraft: Java Edition datapack which improve the fishing system a lot.
 I replace `minecraft:gameplay/fishing` with an empty loot table, and type `stopsound @a * minecraft:entity.fishing_bobber.splash` in `spgoding:better_fishing/tick`, so that players are not able to get any fish and hear the splash sound.
 
 # And What Does Your _better\_fishing_ Do?
-Before the player throws a fishing rod, the _better_fishing_ will check if he/she has any bait(cookie) by function `spgoding:better_fishing/check_bait`.
+Before the player throws a fishing rod, the _better\_fishing_ will check if he/she has any bait(cookie) by function `spgoding:better_fishing/check_bait`.
 
-If the player does have, the fishing rod will be thrown, and attract an random fish to come by function `spgoding:better_fishing/attract_fish`. A fish will be teleported to the player and be killed when it touches the fishing bobber by function `spgoding:better_fishing/kill_fishes`. Eventually, the bait will be cost.
+If the player does have, the fishing rod will be thrown, and attract an random fish to come by function `spgoding:better_fishing/attract_fish`. A fish will be teleported to the player and be killed when it touches the fishing bobber by function `spgoding:better_fishing/kill_fishes`. Eventually, the bait will be spent.
 
 # How about Treasure and Junk?
 I add treasure and junk in the loot tables of these kinds of fish also:
@@ -23,4 +23,4 @@ I add treasure and junk in the loot tables of these kinds of fish also:
 So never worry about your enchanted books!
 
 # I Want to Help You Improve It!
-It's very welcome to fork this repo, and send me a PR! If you are not similar with GitHub, here's a nice [tutorial](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
+It's very welcome to fork this repo, and send me a PR! If you are not familiar with GitHub, here's a nice [tutorial](https://akrabat.com/the-beginners-guide-to-contributing-to-a-github-project/)
