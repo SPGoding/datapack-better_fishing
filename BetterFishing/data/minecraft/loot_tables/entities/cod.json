@@ -1,0 +1,40 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:gameplay/fishing/junk",
+                    "weight": 10,
+                    "quality": -2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:gameplay/fishing/treasure",
+                    "weight": 5,
+                    "quality": 2
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:cod",
+                    "weight": 85,
+                    "functions": [
+                        {
+                            "function": "furnace_smelt",
+                            "conditions": [
+                                {
+                                    "condition": "entity_properties",
+                                    "entity": "this",
+                                    "properties": {
+                                        "on_fire": true
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
